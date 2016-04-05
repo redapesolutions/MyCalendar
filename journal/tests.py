@@ -16,10 +16,10 @@ class TestWithClient(TestCase):
 			print('ClientMethod added a plan successfully')
 		response = c.get('/journal/')
 		response.content
-		
+
 class Sometests(TestCase):
 	def test1(self):
-		"this should fail"
+		"this should fail"			# if KeyError
 		Plans.objects.create(activity="wrongDateActivity", date = "2016.01.01")
 	def test2(self):
 		Plans.objects.create(activity="wrongDateActivity", date = "2016-01-01")
@@ -28,7 +28,7 @@ class Sometests(TestCase):
 		rightDateformat = "2016-01-01"
 		if self.a == rightDateformat:
 			print("Test with wrong date frmat should fail")
-		
+
 class NewDayTest(TestCase):
 	def testCreatePlan(self):
 		print("Test1: Creating new plan...")
@@ -38,20 +38,19 @@ class NewDayTest(TestCase):
 
 class UniqueDateTest(TestCase):
 	error = False
-	A = []		
+	A = []
 	Duplicates =[]
 	for i in Plans.objects.all():	#makeing list which cointain what database contains...
 		A.append(str(i))			#... and change vars to strings so it could be count
-	for i in A:						
+	for i in A:
 		x = A.count(i) 				#if found >=2 same var it adds it to duplicates list
 		if x >= 2:
 			Duplicates.append(i)
 			A.remove(i)
 			error = True
-	y = len(Duplicates)	
+	y = len(Duplicates)
 	def test_are_any_duplicated_date_plans(self):
 		if self.error == False:
 			print("Didnt find any duplicated date plans")
 		else:
 			print("Found ", self.y, " duplicated date plans:", self.Duplicates)
-

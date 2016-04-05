@@ -3,10 +3,7 @@ This is MyCalendar version 1.0
 
 Author: Krzysztof Kołodziński
 
-MyCalendar 1.0 is a test task WEB application for intern in Skygate Sellekt S C.
-It was written in Python 3.4 programming language using Django 1.9 framework.
-It was made in order to guidelines which was established by the SkyGate company.
-
+MyCalendar 1.0 is  written in Python 3.4 programming language using Django 1.9 framework.
 
 Build Instructions
 ------------------
@@ -36,8 +33,8 @@ Documentation
 To launch MyCalendar on Windows.
 
 Use a Command Prompt window. Click on the Start button, click All Programs, click
-Accessories then Command Prompt. Faster way to do this is to click (Win +S) on the 
-keyboard for search and type "command". 
+Accessories then Command Prompt. Faster way to do this is to click (Win +S) on the
+keyboard for search and type "command".
 It will find the Command Prompt which can be open this way.
 In the Command Prompt window use "cd" command to go to the MyCalendar app.
 For example: "cd desktop/skygate/mycalendar"
@@ -59,7 +56,7 @@ Write path to where Python is installed then, after space write "manage.py"
 and then, after space write "runserver".
 For example: "C:/Python34/python manage.py runserver"
 If everything goes right its possible to open the application using web browser.
-Go to http://127.0.0.1:8000/ to launch the MyCalendar. 
+Go to http://127.0.0.1:8000/ to launch the MyCalendar.
 
 
 To launch MyCalendar on Mac.
@@ -72,6 +69,6 @@ Next use manage.py to run virtual server on your device.
 Write path to where Python is installed then, after space write "manage.py"
 and then, after space write "runserver".
 For example: "C:/Python34/python manage.py runserver"
-It may require running virtual environment first. 
+It may require running virtual environment first.
 If everything goes right its possible to open the application using web browser.
-Go to http://127.0.0.1:8000/ to launch the MyCalendar. 
+Go to http://127.0.0.1:8000/ to launch the MyCalendar.
