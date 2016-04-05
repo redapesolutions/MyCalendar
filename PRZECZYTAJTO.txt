@@ -1,0 +1,76 @@
+MyCalendar version 1.0
+======================
+
+Autor: Krzysztof Kołodziński
+
+MyCalendar 1.0 to aplikacja webowa będąca zadaniem testowym w ramach rekrutacji na
+staż w firmie SkyGate. Aplikacja napisana jest za pomocą języka programowania
+Python 3.4, używając frameworka Django 1.9. Została stworzona wedle wytycznych
+określonych przez firmę SkyGate.
+
+
+Wymagania techniczne
+--------------------
+
+Aplikacja nie wymaga instalacji.
+Aby uruchomić MyCalendar 1.0 niezbędna jest instalacjia Python 3.x oraz Django 1.9.
+Potrzebna jest także przeglądarka internetowa. Program działa na większości popularnych
+przeglądarek np. na Google Chrome.
+Aby pobrać odwiedź:
+
+Dla Python 3.x
+https://www.python.org/downloads/
+
+Dla Django 1.9
+https://www.djangoproject.com/download/
+
+Na stronie języka Python umieszczone zostały różne wersje, najlepszym rozwiązaniem 
+jest pobranie najnowszej wersji przeznaczonej dla systemu operacyjnego, na którym będzie
+instalowana. 
+Szczegółowe informacje dotyczące instalacji i dokumentacja jest umiszczona na podanych stronach.
+Używanie starszych wersji oprogramowania może powodować błędy w działaniu aplikacji.
+
+
+Dokumentacja
+------------
+
+Aby uruchomic w systemie Windows.
+
+Użyj wiersza poleceń. Aby otworzyć wiersz poleceń kliknij na klawiaturze przyciski (Win+S),
+ wyszukaj "command" i uruchom go. 
+W wierszu polecen użyj komendy "cd" aby dotrzeć do aplikacji, z której chcesz skorzystać.
+Na przykład: "cd desktop/skygate/mycalendar".
+Następnie użyj manage.py aby uruchomić wirtualny serwer. Aby to zrobić wpisz ścieżkę 
+prowadzącą do miejsca gdzie Python jest zainstalowany, nastepnie po spacji wpisz 
+"manage.py", nastepnie po spacji wpisz "runserver".
+Na przykład: "C:/Python34/python manage.py runserver".
+Jeżeli nie wystąpią żadne nieprawidłowości możliwym będzie korzystanie z aplikacji.
+Włącz przeglądarke internetową i uruchom aplikacje przechodząc do adresu http://127.0.0.1:8000/.
+
+
+Aby uruchomić w systemie Linux.
+
+Użyj Terminalu. Aby otworzyć Terminal kliknij home, wyszukaj "terminal" i uruchom go.
+W Terminalu użyj komendy "cd" aby dotrzeć do aplikacji, z której chcesz skorzystać.
+Na przykład: "cd desktop/skygate/mycalendar".
+Następnie użyj manage.py aby uruchomić wirtualny serwer. Aby to zrobić wpisz ścieżkę 
+prowadzącą do miejsca gdzie Python jest zainstalowany, nastepnie po spacji wpisz 
+"manage.py", nastepnie po spacji wpisz "runserver".
+Na przykład: "C:/Python34/python manage.py runserver".
+Jeżeli nie wystąpią żadne nieprawidłowości możliwym będzie korzystanie z aplikacji.
+Włącz przeglądarke internetową i uruchom aplikacje przechodząc do adresu http://127.0.0.1:8000/.
+
+
+Aby uruchomić w systemie Mac.
+
+Użyj Terminalu. Szybkim sposobem na otwarcie Terminalu jest użycie skrótu na klawiaturze (Comand-Spacja),
+spowoduje to przekierowanie do Spotlight, gdzie należy wpisać "terminal" a następnie go uruchomić.
+W Terminalu użyj komendy "cd" aby dotrzeć do aplikacji, z której chcesz skorzystać.
+Na przykład: "cd desktop/skygate/mycalendar".
+Następnie użyj manage.py aby uruchomić wirtualny serwer. Aby to zrobić wpisz ścieżkę 
+prowadzącą do miejsca gdzie Python jest zainstalowany, nastepnie po spacji wpisz 
+"manage.py", nastepnie po spacji wpisz "runserver".
+Na przykład: "C:/Python34/python manage.py runserver".
+Procedura może wymagać uruchomienia wirtualnego środowiska.
+Jeżeli nie wystąpią żadne nieprawidłowości możliwym będzie korzystanie z aplikacji.
+Włącz przeglądarke internetową i uruchom aplikacje przechodząc do adresu http://127.0.0.1:8000/.

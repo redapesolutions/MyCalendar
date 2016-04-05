@@ -1,0 +1,22 @@
+{% extends "journal/MainView.html" %}
+{% block content %}
+
+{% include "journal/includes/addition.html"%}
+
+{% for i in plan_list%}
+	{% if i.significance == "im" %} 
+		<h4>{{i.date|date:"Y-m-d"}}	 
+		<a href = "{{i.id}}">{{i.activity}} </a> 
+		Important!! <h/4>
+	{%endif%}
+{%endfor%}
+
+{% for i in plan_list%}
+	{% if i.significance == "ge" %}
+		<h4> {{i.date|date:"Y-m-d"}} 
+		<a href = "{{i.id}}"> {{i.activity}} </a>
+		<h/4>
+	{%endif%}
+{% endfor %}
+	
+{% endblock %}

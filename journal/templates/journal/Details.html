@@ -1,0 +1,11 @@
+{% extends "journal/MainView.html" %}
+
+{% block content %}
+	<h1>{%if plan.significance == "im"%} IMPORTANT!!{%endif%}</h1>
+	<h3>{{plan.activity}}</h3>
+	<h5>Duraion: {{plan.duration}}</h5>
+	<h3>Description:</h3>
+	<h5>{{plan.description}}</h3>
+	<h4> <a href = "{{plan.id}}/update"> Edit </a>__
+	<a href = "{{plan.id}}/delete"> Delete </a> </h4>
+{% endblock %}
